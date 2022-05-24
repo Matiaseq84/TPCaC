@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTA DE ROPA</title>
+    <script src="https://kit.fontawesome.com/677613466f.js" crossorigin="anonymous"></script>
+    <LInk rel="stylesheet" href="css/normalize.css"></LInk>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <LInk rel="stylesheet" href="css/styles.css"></LInk>
+</head>
+<body>
+    <nav class="nav_p">
+        <div class="logo">
+            <a href="index.html">VENTA DE ROPA</a>   
+        </div>  
+
+        <div class="search">
+            
+                 <input class="search-box" type="text" placeholder="Search" required>
+                 <button type="submit" class="fas fa-search"></button>
+            
+        
+        </div>     
+        <div class="carrito">
+            <button class="fa-solid fa-cart-shopping"></button>
+        </div>  
+
+   </nav>
+
+    <nav class="nav_s">
+        <a class="nav_enlace nav_enlace--activo" href="index.html">Tienda</a>
+       
+    </nav>
+
+    <main class="contenedor">
+        <h1>ReactJS</h1>
+
+        <div class="remera">
+            <img class="remera__imagen" src="img/h1.jpg" width="354" height="341" alt="Imagen del producto">
+        
+
+            <div class="remera__contenido">
+                <p>
+                    Donec eu turpis vel nisl congue consectetur sed quis quam. Phasellus suscipit sollicitudin
+                    accumsan. Ut convallis pulvinar metus ac tempor.
+                </p>
+                
+                <form class="formulario">
+                    <select class="formulario__campo" >
+                        <option disabled selected>--Seleccionar Talle--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>    
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">VENTADEROPA - Todos los derechos reservados 2022.</p>
+    </footer>
+</body>
+</html>
